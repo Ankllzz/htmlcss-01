@@ -65,7 +65,7 @@ a {
   position: relative;
   /* display: flex; */
   background: #e6f0ff;
-  height: 100vh;
+  height: calc(100vh - 90px);
 }
 
 /* navbar */
