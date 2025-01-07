@@ -170,6 +170,10 @@ a {
   align-items: center;
 }
 
+.clients img:hover {
+  box-shadow: 10px 10px 5px lightblue;
+}
+
 /* Guides */
 
 .guides {
@@ -569,9 +573,9 @@ a {
   justify-content: space-between;
 }
 
-/* .footer .row-top {
+.footer .row-top {
   gap: 185px;
-} */
+}
 
 .footer .sub-title {
   color: #1c1c1d;
@@ -597,6 +601,12 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
+  white-space: nowrap;
+}
+
+.footer .desc {
+  white-space: normal;
+  line-height: 1.75;
 }
 
 .footer .row-bottom {
