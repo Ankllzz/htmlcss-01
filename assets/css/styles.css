@@ -52,8 +52,18 @@ a {
 }
 
 /* Header */
+
+.fixed-header {
+  position: sticky;
+  background: #e6f0ff;
+  padding-top: 26px;
+  top: -26px;
+  z-index: 1;
+}
+
 .header {
   position: relative;
+  /* display: flex; */
   background: #e6f0ff;
   height: 100vh;
 }
@@ -62,7 +72,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 
 .navbar ul {
@@ -99,7 +109,8 @@ a {
 }
 
 .hero {
-  margin-top: 130px;
+  padding-top: 130px;
+  /* margin-top: 130px; */
 }
 
 .hero .info {
@@ -171,7 +182,9 @@ a {
 }
 
 .clients img:hover {
-  box-shadow: 10px 10px 5px lightblue;
+  box-shadow: 0px 10px 30px 0px #ecebeb;
+  border-radius: 20px;
+  padding: 32px 42px 23px;
 }
 
 /* Guides */
