@@ -68,7 +68,8 @@ a {
 
 .header {
   position: relative;
-  /* display: flex; */
+  display: flex;
+  align-items: center;
   background: #e6f0ff;
   height: calc(100vh - 90px);
 }
@@ -112,11 +113,11 @@ a {
   padding: 13px 16px;
   margin-left: 18px;
 }
-
+/* 
 .hero {
   padding-top: 130px;
-  /* margin-top: 130px; */
-}
+  margin-top: 130px;
+} */
 
 .hero .info {
   width: 51%;
